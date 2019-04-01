@@ -1,0 +1,20 @@
+yolo_anchors_path: apps/humanDetectApp/models/human_yolo/configs/yolo_anchors.txt
+yolo_classes_path: apps/humanDetectApp/models/human_yolo/configs/coco_classes.txt
+yolo_model_path: apps/humanDetectApp/models/human_yolo/yolo.h5
+usr_model_type: yolo
+pose_image_size: 640x368
+per_process_gpu_memory_fraction: 0.7
+
+facenet_confidence_level: 0.9
+facenet_factor: 0.709
+facenet_min_size: 100
+facenet_image_size: 160
+facenet_ingore_small: True
+facenet_threshold: 0.6,0.7,0.7
+
+ccbins_stuff_imgs: static_resource/stuff
+ccbins_stuff_pcs_imgs: static_resource/pcs_stuff
+illegal_image_path: static_resource/illegal_image
+illegal_image_path_hk: static_resource/illegal_image_hk
+legal_stuff_num: 2
+save_all_file: True
